@@ -13,6 +13,8 @@ import { fakeBackendProvider } from './helpers';
 import { AlertComponent } from './components';
 import { XhrInterceptor , ErrorInterceptor } from './helpers';
 import { RegisterComponent } from './register';
+import { AirWatcherComponent } from './air-watcher/air-watcher.component';
+import { FavouritesComponent } from './favourites/favourites.component';
 
 
 @NgModule({
@@ -21,7 +23,9 @@ import { RegisterComponent } from './register';
     LoginComponent,
     AlertComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    AirWatcherComponent,
+    FavouritesComponent
   ],
   imports: [
     BrowserModule,
