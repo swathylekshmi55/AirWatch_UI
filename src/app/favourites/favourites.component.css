@@ -1,0 +1,18 @@
+.fav{
+    width: 90%;
+    margin-left: 5%;
+    /*margin-top: 3%;*/
+}
+.favTab{
+    border: thin solid lightgray;
+    border-radius: 6%;
+}
+.right{
+    text-align: right;
+}
+.btn.remove-btn {
+    background:red;
+    color: #fff;
+    margin-top: 2%;
+    border-radius: 15px;
+}
