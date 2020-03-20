@@ -3,7 +3,9 @@
   <h2>Air Watch</h2>
 
 <app-favourites></app-favourites>
-
+    <div class="row title title-custom">
+      Air Quality
+    </div>
       <form [formGroup]="createAccountForm" class="form">
 
         <div class="row">
@@ -28,22 +30,22 @@
             </select>
           </div> 
   
-          <div class="form-group col-md-3">
+          <div class="form-group col-md-3 sm-center">
             <button (click)="retrieve()" class="btn button go-btn">Go</button>
           </div>
         </div>
       </form>
 
-      <div class="row">
-        <div class="col">{{airData ? airData.city  : '' | json}}</div>
+      <!--<div class="row">
+        <div class="col">{{airData ? airData.city  : ''}}</div>
         <div class="col">col</div>
         <div class="col"><button (click)="addFav()">Add Favourites</button></div>
-      </div>
+      </div>-->
 
 <div class="airData">
   <div class="sector-box-dashboard sector-white">
       <div class="row">
-          <div class="col-8">
+          <div class="col-md-8 col-sm-12 col-xs-12">
               <div class="sectot-box-left">
                   <h4>New Delhi, Delhi</h4>
                   <h6>Air Quality Index</h6>
@@ -52,7 +54,7 @@
                   <p>Last Updated : 19 Mar 2020, 05:28pm</p>
               </div>
           </div>
-          <div class="col-4">
+          <div class="col-md-4">
              <div class="sectot-box-right">
                 <div class="">
                   <button (click)="addFav()" class="btn button go-btn">Add Favourites</button>

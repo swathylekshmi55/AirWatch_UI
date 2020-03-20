@@ -6,6 +6,7 @@
 .favTab{
     border: thin solid lightgray;
     border-radius: 6%;
+    background-color: white;
 }
 .right{
     text-align: right;
@@ -15,4 +16,10 @@
     color: #fff;
     margin-top: 2%;
     border-radius: 15px;
+}
+.divBorder{
+    border: solid thin gray;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: lightgrey;
 }

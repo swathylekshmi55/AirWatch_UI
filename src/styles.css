@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+.title{
+    background-color: #2b303a;
+    color: white;
+    font: bolder;
+    padding: 5px;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    width: 100%;
+}
